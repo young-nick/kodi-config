@@ -1,0 +1,11 @@
+<keymap>
+ <global>
+  <remote device="mceusb">
+   <green>KEY_GREEN</green>
+   <red>KEY_RED</red>
+   <yellow>KEY_YELLOW</yellow>
+   <blue>KEY_BLUE</blue>
+  </remote>
+ </global>
+</keymap>
+

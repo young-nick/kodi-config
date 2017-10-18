@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<smartplaylist type="tvshows">
+    <name>Best Of</name>
+    <match>all</match>
+    <rule field="title" operator="is">
+        <value>The Simpsons</value>
+    </rule>
+    <rule field="rating" operator="greaterthan">
+        <value>7.8</value>
+    </rule>
+    <limit>100</limit>
+    <order direction="descending">rating</order>
+</smartplaylist>

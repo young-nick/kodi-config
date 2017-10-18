@@ -1,0 +1,13 @@
+<keymap>
+    <global>
+        <remote>
+			<green>Notification(Key, Green button, 3)</green>
+			<red>AudioNextLanguage</red>
+			<yellow>ShowSubtitles</yellow>
+			<blue>NextSubtitles</blue>
+        </remote>
+    </global>
+</keymap>
+
+
+

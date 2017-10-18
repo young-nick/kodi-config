@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<smartplaylist type="episodes">
+    <name>Simpsons top episodes</name>
+    <match>all</match>
+    <rule field="rating" operator="greaterthan">
+        <value>7.5</value>
+    </rule>
+    <rule field="tvshow" operator="is">
+        <value>The Simpsons</value>
+    </rule>
+    <limit>100</limit>
+    <order direction="descending">random</order>
+</smartplaylist>

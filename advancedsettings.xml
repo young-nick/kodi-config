@@ -1,0 +1,34 @@
+<advancedsettings>
+  <useddsfanart>true</useddsfanart>
+  <cputempcommand>cputemp</cputempcommand>
+  <gputempcommand>gputemp</gputempcommand>
+  <samba>
+    <clienttimeout>30</clienttimeout>
+  </samba>
+  <network>
+    <disableipv6>true</disableipv6>
+  </network>
+      <videodatabase>
+	
+        <type>mysql</type>
+        <host>starlord.cbr</host>
+        <port>3306</port>
+        <user>xbmc</user>
+        <pass>xbmc</pass>
+    </videodatabase> 
+
+    <musicdatabase>
+        <type>mysql</type>
+        <host>starlord.cbr</host>
+        <port>3306</port>
+        <user>xbmc</user>
+        <pass>xbmc</pass>
+    </musicdatabase>
+     <videolibrary>
+          <importwatchedstate>true</importwatchedstate>
+     </videolibrary>
+<network>
+<cachemembuffersize>104857600</cachemembuffersize>
+</network>
+
+</advancedsettings>
